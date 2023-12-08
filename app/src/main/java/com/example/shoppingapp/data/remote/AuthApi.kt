@@ -13,4 +13,5 @@ class AuthApi {
     fun getService():AuthService {
         return retrofit.create(AuthService::class.java)
     }
+
 }
