@@ -5,4 +5,7 @@
     <string name="login">Iniciar Sesion</string>
     <string name="register">¿Aun no tiene usuario?, Registrate</string>
     <string name="name">Nombre Completo</string>
+    <string name="cpass">Confirmar Contraseña</string>
+    <string name="btnR">Registrate</string>
+    <string name="btnL">¿Ya tienes cuenta?, Inicia sesion</string>
 </resources>

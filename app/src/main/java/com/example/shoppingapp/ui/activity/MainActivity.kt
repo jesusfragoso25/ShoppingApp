@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         registerBtn.setOnClickListener{
-            val intent = Intent(this, registro::class.java)
+            val intent = Intent(this, ClienteRegister::class.java)
             startActivity(intent)
         }
     }
