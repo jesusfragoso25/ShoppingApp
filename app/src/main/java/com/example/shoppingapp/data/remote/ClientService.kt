@@ -6,6 +6,6 @@ import retrofit2.Call
 import retrofit2.http.POST
 
 interface ClientService {
-    @POST("49/list")
+    @POST("371/list")
     fun getClient(): Call<List<clients>>
 }

@@ -14,7 +14,7 @@ interface AuthService {
     @POST("login")
     fun loginUser(@Field("email") email: String, @Field("password") password: String): Call<CallResponse>
     @FormUrlEncoded
-    @POST("49/register")
+    @POST("371/register")
     fun registerUser(@Field("name") name: String,
                      @Field("email") email: String,
                      @Field("password") password: String): Call<CallResponse>
