@@ -8,4 +8,7 @@
     <string name="cpass">Confirmar Contraseña</string>
     <string name="btnR">Registrate</string>
     <string name="btnL">¿Ya tienes cuenta?, Inicia sesion</string>
+    <string name="lbldash">Panel de administracion</string>
+    <string name="btnUser">Gestion de Clientes</string>
+    <string name="btnProd">Gestion de Productos</string>
 </resources>

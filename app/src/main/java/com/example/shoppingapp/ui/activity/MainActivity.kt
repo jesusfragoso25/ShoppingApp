@@ -13,9 +13,7 @@ import com.example.shoppingapp.data.remote.AuthService
 import com.example.shoppingapp.ui.viewmodel.UserViewModel
 
 class MainActivity : AppCompatActivity() {
-
     private lateinit var userViewModel: UserViewModel
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -24,6 +22,7 @@ class MainActivity : AppCompatActivity() {
 
         val emailEditText = findViewById<EditText>(R.id.user)
         val passwordEditText = findViewById<EditText>(R.id.password)
+
         val loginBtn = findViewById<Button>(R.id.login)
         val registerBtn = findViewById<Button>(R.id.register)
 

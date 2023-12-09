@@ -15,6 +15,12 @@
         android:theme="@style/Theme.ShoppingApp"
         tools:targetApi="31">
         <activity
+            android:name=".ui.activity.gestionProducts"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.gestionClient"
+            android:exported="false" />
+        <activity
             android:name=".ui.activity.HomeUser"
             android:exported="false" />
         <activity

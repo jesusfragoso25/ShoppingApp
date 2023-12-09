@@ -10,6 +10,7 @@ class UserRepository {
      fun loginRepository(email: String, password: String): Call<CallResponse> {
         return auth.loginUser(email,password)
     }
+
     fun registerRepostory (name: String, email: String, password: String): Call<CallResponse> {
         return auth.registerUser(name,email,password)
     }
